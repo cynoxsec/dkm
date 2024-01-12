@@ -1,0 +1,499 @@
+﻿/*body {
+    background-color: #e6ffee;
+    font-family: Tahoma;
+}*/
+
+body {
+    color: #484646 !important;
+    font-family: Verdana !important;
+}
+
+html #example .demo-container {
+    width: 730px;
+    background: url('Images/header-page.jpg') 0 0 no-repeat;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+@media \0screen\,screen\9 {
+    #example .demo-container {
+        border: 1px solid #ccc;
+    }
+}
+
+/*header - Home*/
+.demo-container .headerHome {
+    display: block;
+}
+
+/*Main menu*/
+.demo-container .mainMenu {
+    text-transform: uppercase;
+}
+
+    .demo-container .mainMenu .rmRootGroup .rmRootLink {
+        padding: 4px 20px;
+        line-height: 30px;
+        height: 30px;
+    }
+
+        .demo-container .mainMenu .rmRootGroup .rmRootLink .rmToggle {
+            height: 30px;
+        }
+
+    /*Bootstrap skin*/
+    .demo-container .mainMenu.RadMenu_Bootstrap .rmRootGroup .rmRootLink {
+        padding: 15px;
+        line-height: 1.42857;
+        height: 1.42857em;
+    }
+
+        .demo-container .mainMenu.RadMenu_Bootstrap .rmRootGroup .rmRootLink .rmToggle {
+            height: 1.33em;
+        }
+
+    /*Material skin*/
+    .demo-container .mainMenu.RadMenu_Material .rmRootGroup .rmRootLink {
+        padding: 14px 24px;
+        line-height: 1.42857;
+        height: 1.42857em;
+    }
+
+        .demo-container .mainMenu.RadMenu_Material .rmRootGroup .rmRootLink .rmToggle {
+            height: 1.33em;
+        }
+
+
+.demo-container .rmLeftImage {
+    background-image: url('Images/icons.png') !important;
+}
+
+.demo-container .RadMenu_Outlook .icon-sofa:hover .rmLeftImage,
+.demo-container .icon-sofa .rmLeftImage {
+    background-position: 0 0;
+}
+
+.demo-container .RadMenu_Outlook .icon-chair:hover .rmLeftImage,
+.demo-container .icon-chair .rmLeftImage {
+    background-position: -20px 0;
+}
+
+.demo-container .RadMenu_Outlook .icon-table:hover .rmLeftImage,
+.demo-container .icon-table .rmLeftImage {
+    background-position: -40px 0;
+}
+
+.demo-container .RadMenu_MetroTouch .rmSelected.icon-sofa .rmLeftImage,
+.demo-container .RadMenu_Metro .rmSelected.icon-sofa .rmLeftImage,
+.demo-container .RadMenu_Glow .icon-sofa .rmLeftImage,
+.demo-container .RadMenu_Silk .icon-sofa:hover .rmLeftImage,
+.demo-container .RadMenu_Silk .rmSelected.icon-sofa .rmLeftImage,
+.demo-container .RadMenu_Telerik .rmSelected.icon-sofa .rmLeftImage,
+.demo-container .RadMenu_Sunset .rmSelected.icon-sofa .rmLeftImage,
+.demo-container .RadMenu_Black .icon-sofa .rmLeftImage,
+.demo-container .RadMenu_BlackMetroTouch .icon-sofa .rmLeftImage,
+.demo-container .RadMenu_Outlook .icon-sofa .rmLeftImage,
+.demo-container .RadMenu_Outlook .rmSelected.icon-sofa .rmLeftImage,
+.demo-container .RadMenu_Simple .icon-sofa:hover .rmLeftImage,
+.demo-container .RadMenu_Simple .rmSelected.icon-sofa .rmLeftImage {
+    background-position: 0 -20px;
+}
+
+.demo-container .RadMenu_MetroTouch .rmSelected.icon-chair .rmLeftImage,
+.demo-container .RadMenu_Metro .rmSelected.icon-chair .rmLeftImage,
+.demo-container .RadMenu_Glow .icon-chair .rmLeftImage,
+.demo-container .RadMenu_Silk .icon-chair:hover .rmLeftImage,
+.demo-container .RadMenu_Silk .rmSelected.icon-chair .rmLeftImage,
+.demo-container .RadMenu_Telerik .rmSelected.icon-chair .rmLeftImage,
+.demo-container .RadMenu_Sunset .rmSelected.icon-chair .rmLeftImage,
+.demo-container .RadMenu_Black .icon-chair .rmLeftImage,
+.demo-container .RadMenu_BlackMetroTouch .icon-chair .rmLeftImage,
+.demo-container .RadMenu_Outlook .icon-chair .rmLeftImage,
+.demo-container .RadMenu_Outlook .rmSelected.icon-chair .rmLeftImage,
+.demo-container .RadMenu_Simple .icon-chair:hover .rmLeftImage,
+.demo-container .RadMenu_Simple .rmSelected.icon-chair .rmLeftImage {
+    background-position: -20px -20px;
+}
+
+.demo-container .RadMenu_MetroTouch .rmSelected.icon-table .rmLeftImage,
+.demo-container .RadMenu_Metro .rmSelected.icon-table .rmLeftImage,
+.demo-container .RadMenu_Glow .icon-table .rmLeftImage,
+.demo-container .RadMenu_Silk .icon-table:hover .rmLeftImage,
+.demo-container .RadMenu_Silk .rmSelected.icon-table .rmLeftImage,
+.demo-container .RadMenu_Telerik .rmSelected.icon-table .rmLeftImage,
+.demo-container .RadMenu_Sunset .rmSelected.icon-table .rmLeftImage,
+.demo-container .RadMenu_Black .icon-table .rmLeftImage,
+.demo-container .RadMenu_BlackMetroTouch .icon-table .rmLeftImage,
+.demo-container .RadMenu_Outlook .icon-table .rmLeftImage,
+.demo-container .RadMenu_Outlook .rmSelected.icon-table .rmLeftImage,
+.demo-container .RadMenu_Simple .icon-table:hover .rmLeftImage,
+.demo-container .RadMenu_Simple .rmSelected.icon-table .rmLeftImage {
+    background-position: -40px -20px;
+}
+
+/*page content*/
+.demo-container .pageContent {
+    height: 320px;
+    width: 730px;
+    position: relative;
+}
+
+.demo-container div.pageContent h6 {
+    margin: 5px 20px 0;
+    font-size: 20px;
+    color: #000;
+    padding-top: 15px;
+}
+
+/*submenu*/
+.demo-container .pageContent .RadMenu,
+.demo-container .pageContent .RadMenu .rmRootGroup {
+    height: 100%;
+}
+
+/*home page*/
+.demo-container .homeContent {
+    height: 140px;
+    width: 670px;
+    padding: 20px 30px;
+    font-size: 14px;
+}
+
+html .demo-container .pageContent.homeContent h5 {
+    padding: 0 0 15px;
+    font-size: 20px;
+    color: #000;
+    border-bottom: 1px solid #2dabc1;
+}
+
+/*product page*/
+.demo-container .productContainer {
+    position: relative;
+    height: 210px;
+    width: 270px;
+    color: #2dabc1;
+    font-size: 14px;
+    line-height: 18px;
+    float: left;
+    margin: 35px 0 0 60px;
+}
+
+.demo-container .describtion {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    width: 208px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #2dabc1;
+}
+
+    .demo-container .describtion span {
+        display: block;
+        overflow: hidden;
+    }
+
+    .demo-container .describtion .price {
+        height: 40px;
+        float: left;
+        font-size: 22px;
+        line-height: normal;
+    }
+
+    .demo-container .describtion .name,
+    .demo-container .describtion .type {
+        padding: 0 15px;
+    }
+
+    .demo-container .describtion .name {
+        padding-top: 7px;
+        font-weight: bold;
+    }
+
+/*chairs*/
+.demo-container .chairs img {
+    margin: -30px 0 0 20px;
+}
+
+/*stores page*/
+.demo-container #stores .address {
+    float: left;
+    margin: 30px 35px;
+}
+
+.demo-container #stores p {
+    margin: 0;
+}
+
+/*about us page*/
+.demo-container .about {
+    width: 690px;
+    padding: 0 20px;
+}
+
+.demo-container .people {
+    width: 33%;
+    float: left;
+    margin: 25px 0 0;
+    color: #2dabc1;
+    font-size: 16px;
+    text-align: center;
+}
+
+    .demo-container .people img {
+        display: block;
+        margin: auto;
+    }
+
+    .demo-container .people p {
+        margin: 0;
+    }
+
+    .demo-container .people .name {
+        font-weight: bold;
+        border-top: 1px solid #2dabc1;
+    }
+
+.mytablecss {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+    border: 1px solid #ddd;
+}
+
+    .mytablecss th {
+        border: 1px solid #ddd;
+        padding: 5px !important;
+        font-size: 12px !important;
+    }
+
+    .mytablecss tbody tr td {
+        padding: 5px !important;
+        border: 1px solid #ddd;
+    }
+
+    .mytablewithbackcss {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+    border: 1px solid #ddd;
+}
+
+    .mytablewithbackcss th {
+        border: 1px solid #ddd;
+        padding: 5px !important;
+        font-size: 12px !important;
+        background-color:#ff6b1c;
+        color:white;
+    }
+
+    .mytablewithbackcss tr td {
+        padding: 5px !important;
+        border: 1px solid #ddd;
+        
+    }
+
+
+.tdwidth {
+    width: 20% !important;
+}
+
+.td2width {
+    width: 35% !important;
+}
+.td3width {
+    width: 27% !important;
+}
+.td4width {
+    width: 45% !important;
+}
+
+.mybutton {
+    padding: 3px 15px 5px 15px !important;
+    text-align: center;
+    background-color: #ff6b1c;
+    color: #FFFFFF !important;
+    Height: 32px !important;
+    font-weight: bold !important;
+    font-size: medium !important;
+    border-radius: 5px !important;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+}
+
+.mybutton2 {
+    padding: 3px 15px 5px 15px !important;
+    text-align: center;
+    background-color: #00CC00 ;
+    color: #FFFFFF !important;
+    Height: 32px !important;
+    font-weight: bold !important;
+    font-size: medium !important;
+    border-radius: 5px !important;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+}
+
+
+
+.mybutton:hover {
+    background-color: #2D4A98;
+    color: #FFFFFF !important;
+    Height: 32px !important;
+    font-weight: bold !important;
+    font-size: medium !important;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 10px 25px 0 rgba(0,0,0,0.19);
+}
+
+
+.mybutton2:hover {
+    background-color: #2D4A98;
+    color: #FFFFFF !important;
+    Height: 32px !important;
+    font-weight: bold !important;
+    font-size: medium !important;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 10px 25px 0 rgba(0,0,0,0.19);
+}
+
+/*.RadWindow {
+    top: 10px !important;
+}*/
+
+.RadMenu_Silk .rmRootLink:hover {
+    border-top: 4px solid #2d4a98 !important;
+}
+
+.RadMenu_Silk .rmRootLink.rmFocused, .RadMenu_Silk .rmRootLink.rmSelected, .RadMenu_Silk .rmRootLink.rmExpanded {
+    border-top: 4px solid #2d4a98 !important;
+}
+
+.RadMenu_Silk .rmGroup .rmLink.rmExpanded, .RadMenu_Silk .rmGroup .rmLink:hover, .RadMenu_Silk .rmGroup .rmLink.rmFocused, .RadMenu_Silk .rmGroup .rmLink.rmSelected {
+    background-position: 0% 0%;
+    color: white !important;
+    background-image: linear-gradient(#2D4A7D,#2D4A7D) !important;
+    background-color: #2d4a98 !important;
+    background-repeat: repeat !important;
+    background-attachment: scroll !important;
+}
+
+ul {
+    font-size: inherit !important;
+    font-weight: inherit !important;
+}
+
+    ul#menu li {
+        padding-left: inherit !important;
+    }
+
+li {
+    background: inherit !important;
+    padding-right: 0px !important;
+}
+
+.hrppagetittle {
+    padding: 7px;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    background-color: #ff6b1c;
+    color: #fff;
+}
+
+.starerror {
+    color:red;
+}
+
+.styled-select {
+
+   overflow: hidden;  
+   border: 2px solid rgba(0,0,0,0.24);
+   border-radius: 5px;
+   color:#484646 !important;
+   }
+
+   .styled-select select {
+   background: #2D4A98;  
+   padding: 3px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+  
+   -webkit-appearance: none;   
+   color:#484646;
+   
+   }
+    .styled-select option:hover {
+        background:#2D4A98 !important;
+          box-shadow: 0 0 10px 100px #000 inset;
+          text-transform:uppercase
+    }
+
+    .hrpdeadingother { background-color :#ff6b1c;
+                  color :white !important;
+                  text-align :center;
+                 
+        }
+textarea {
+    border-color:inherit;
+}
+
+
+
+
+/* ---------------- For sticky header: class="float-panel"  ------------------*/
+.float-panel {
+   transform: translateZ(0);
+    transition:all 0.5s; /* Effect for switching from .fixed to static */
+     width:100%;
+     z-index:9999;
+}
+.float-panel .content-area {margin:10px auto;}
+.float-panel a {font-size:16px;text-decoration:none;color:#444;display:inline-block;padding:10px 20px;}
+.float-panel .fa-gg {color:#F0595C;font-size:30px;vertical-align:middle;transition:all 1s;}
+/* when class="float-panel fixed" */
+.fixed {box-shadow:0 2px 6px rgba(0,0,0,0.2);padding:4px 0;animation:slide-down 0.7s;opacity:1;}
+.fixed .fa-gg {transform: rotate(360deg); }
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    } 
+    100% {
+        opacity: 0.9;
+        transform: translateY(0);
+    } 
+}
+
+
+
+/* ---------------- For Animation on Scroll ---------------- */
+.slideanim {
+    visibility:hidden;
+    visibility:visible;/*For old IE browsers IE6-8 */
+}
+.slideanim.slide {visibility: visible; animation:slide 1s;}
+.slideanim::after {
+    /* useful when its child elements are float:left; */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding:4px !important;
+}
+.form-control {
+    min-width:160px !important
+}
+
+/*-------- Generic styles for the page ------------------*/
+
